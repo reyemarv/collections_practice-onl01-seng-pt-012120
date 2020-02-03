@@ -24,4 +24,5 @@ def kesha_maker(array)
 end 
 
 def find_a(array)
-  array.select{|int| 
+  array.select{|int| if int[0] == "a"}
+end 
