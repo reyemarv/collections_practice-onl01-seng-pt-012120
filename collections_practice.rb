@@ -32,5 +32,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each.with_index.collect{|int, letter| 
+  array.each.with_index.collect do |int|
+    if int != "feet"
+      int + "s"
+    else
+      int
+    end
+  end 
+end 
 end
