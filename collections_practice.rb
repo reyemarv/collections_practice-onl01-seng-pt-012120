@@ -39,5 +39,4 @@ def add_s(array)
       int
     end
   end 
-end 
 end
