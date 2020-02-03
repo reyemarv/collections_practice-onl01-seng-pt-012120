@@ -26,3 +26,4 @@ end
 def find_a(array)
   array.select{|int| int[0] == "a"}
 end 
+
