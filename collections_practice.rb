@@ -30,3 +30,6 @@ end
 def sum_array(array)
   array.inject{|sum, num| sum + num}
 end
+
+def add_s(array)
+  array.each.with_index.collect{|int, letter| if int 
