@@ -27,3 +27,6 @@ def find_a(array)
   array.select{|int| int[0] == "a"}
 end 
 
+def sum_array(array)
+  array.inject{|sum, num| sum + num}
+end
